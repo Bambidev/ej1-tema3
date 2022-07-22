@@ -1,7 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-
         suma(50,50,40);
 
         coche miChoche = new coche();
@@ -10,9 +9,10 @@ public class Main {
     }
 
     public static void suma(int a, int b, int c){
-        System.out.println(a + b + c);
+        int resultado;
+        resultado = a + b +c;
+        System.out.println(resultado);
     }
-
 }
 
 class coche {
